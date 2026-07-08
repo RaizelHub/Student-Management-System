@@ -1,0 +1,66 @@
+# Visual Studio / .NET Core
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.DotSettings.user
+
+# Build output
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+.nuget/
+
+# Debug logs and databases
+*.log
+*.mdf
+*.ldf
+*.sqlite
+*.db
+*.db-journal
+
+# Publish
+*.PublishSettings
+publish/
+
+# Resharper
+_ReSharper*/
+*.DotSettings
+
+# DotCover
+*.dotCover
+
+# Entity Framework
+Migrations/GeneratedMigrations/*
+
+# User secrets
+secrets.json
+App.config
+# Visual Studio Code workspace
+*.code-workspace
+
+# Misc
+Thumbs.db
+*.DS_Store
+
+# MySQL connector / local sensitive files
+appsettings.Local.json
+
+# Ignore binary logs and packages produced by CI
+*.zip
+*.7z
+
+# Keep IDE-specific local tooling configs out
+.vsconfig
